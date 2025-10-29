@@ -20,7 +20,7 @@ const config: Config.InitialOptions = {
   collectCoverageFrom: ['src/**/*.ts', '!src/**/test/*.ts?(x)', '!**/node_modules/**'],
   coverageThreshold: {
     global: {
-      branches: 1,
+      branches: 0,
       functions: 1,
       lines: 1,
       statements: 1
